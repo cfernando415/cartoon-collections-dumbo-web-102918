@@ -26,4 +26,5 @@ def find_the_cheese(ingredients) # code an argument here
     ingredients.include?(cheese)
     return cheese
   end
+  return nil
 end
