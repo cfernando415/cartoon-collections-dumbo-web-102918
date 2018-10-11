@@ -14,8 +14,9 @@ end
 
 def long_planeteer_calls(planeteers) # code an argument here
   # Your code here
-  planeteers.each do |planeteer|
-    
+  planeteers.any? do |planeteer|
+    planeteer.length > 4
+  end
 end
 
 def find_the_cheese# code an argument here
